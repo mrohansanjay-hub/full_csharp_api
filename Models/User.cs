@@ -23,8 +23,8 @@ namespace MyApi.Models
         [Column("department")]
         public string Department { get; set; }
         [Column("status")]
-        public string Status { get; set; } 
+        public string Status { get; set; }
         [Column("created_by")]
-        public string CreateBy { get; set; }
+        public string? CreateBy { get; set; } = "Admini";
     }
 }
