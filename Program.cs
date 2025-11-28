@@ -24,6 +24,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 );
 var app = builder.Build();
 
+// Enable Swagger
 app.UseSwagger();
 app.UseSwaggerUI();
 
